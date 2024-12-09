@@ -58,9 +58,9 @@ TechVibe Store
 ## Screenshots
 
 ### Splash Section
-![Splash Section](/home.png.png)
+![Splash Section](/home.png)
 
 ### Navigation Menu
-![Navigation Menu](/products.png.png)
+![Navigation Menu](/products.png)
 
 
