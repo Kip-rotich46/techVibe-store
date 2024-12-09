@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Details - TechVibe Store</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <header>
+      <nav>
+        <div class="logo">
+          <a href="index.html">
+            <img src="images/logo_transparent.png" alt="TechVibe Store Logo" />
+          </a>
+        </div>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html" class="active">Products</a></li>
+          <!-- <li><a href="about.html">About Us</a></li> -->
+          <!-- <li><a href="contact.html">Contact</a></li> -->
+          <li><a href="cart.html">Cart</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Product Details Section -->
+    <main>
+      <section id="product-details">
+        <div class="product-container">
+          <!-- Product Image (Hardcoded) -->
+          <div class="product-image">
+            <img src="images/laptop.jpg" alt="Laptop" />
+          </div>
+
+          <!-- Product Info -->
+          <div class="product-info">
+            <h1 id="product-name">Product Name</h1>
+            <p class="price" id="product-price">$0.00</p>
+            <p class="description">
+              This is an amazing product with state-of-the-art features and
+              unmatched quality. Perfect for anyone looking for reliability and
+              performance.
+            </p>
+            <ul class="features">
+              <li>Feature 1: High Performance</li>
+              <li>Feature 2: Lightweight and Compact</li>
+              <li>Feature 3: Long-lasting Battery</li>
+              <li>Feature 4: Cutting-edge Design</li>
+            </ul>
+            <button class="buy-now">Buy Now</button>
+            <button class="add-to-cart">Add to Cart</button>
+
+            <button onclick="history.back()">Go Back</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-content">
+        <p>&copy; 2024 TechVibe Store. All rights reserved.</p>
+        <ul class="socials">
+          <li>
+            <a href="#"
+              ><img src="images/facebook-icon.png" alt="Facebook"
+            /></a>
+          </li>
+          <li>
+            <a href="#"><img src="images/twitter-icon.png" alt="Twitter" /></a>
+          </li>
+          <li>
+            <a href="#"
+              ><img src="images/instagram-icon.png" alt="Instagram"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+
+  </body>
+</html>
